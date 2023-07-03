@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat w/Jimmy - StarChat</title>
+</head>
+
+<body id="chat-screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Orders</span>
+            <i class="fa-solid fa-mug-hot"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>12:47</span>
+        </div>
+        <div class="status-bar__column status-bar__mr">
+            <span>0.1%</span>
+            <i class="fa-solid fa-battery-empty"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="chats.html">
+                <i class="fas fa-angle-left fa-3x"></i>
+            </a>
+        </div>
+        <div class="alt-header__column">
+            <h1 id="alt-header__title-black" class="alt-header__title">Jimmy</h1>
+        </div>
+        <div class="alt-header__column">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-bars fa-lg masis"></i></span>
+        </div>
+    </header>
+
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Monday, July 3, 2023
+        </div>
+        <div class="message-row">
+            <img src="https://static.wikia.nocookie.net/misterbeast/images/6/67/MrBeast_at_the_kids_choice_awards_2022.png/revision/latest?cb=20230410173447">
+            <div class="message-row__content">
+                <span class="message__author">Jimmy Donaldson</span>
+                <div class="message__info">
+                    <span class="message__bubble">Do you want to participate in my upcoming video?</span>
+                    <span class="message__time">11:48</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble message__bubble-error">Sure!</span>
+                    <span class="message__time">11:51</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row">
+            <img src="https://static.wikia.nocookie.net/misterbeast/images/6/67/MrBeast_at_the_kids_choice_awards_2022.png/revision/latest?cb=20230410173447">
+            <div class="message-row__content">
+                <span class="message__author">Jimmy Donaldson</span>
+                <div class="message__info">
+                    <span class="message__bubble">Alright! Meet at the video camp for further intructions.</span>
+                    <span class="message__time">11:52</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble message__bubble-error">Alright, got it!</span>
+                    <span class="message__time">11:52</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row">
+            <img src="https://static.wikia.nocookie.net/misterbeast/images/6/67/MrBeast_at_the_kids_choice_awards_2022.png/revision/latest?cb=20230410173447">
+            <div class="message-row__content">
+                <span class="message__author">Jimmy Donaldson</span>
+                <div class="message__info">
+                    <span class="message__bubble">Thank you for participating!</span>
+                    <span class="message__time">11:53</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <form class="reply">
+        <div class="reply__column">
+            <i class="icon-color__change far fa-plus-square fa-lg"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message..."/>
+            <i id="wink-emoji" class="icon-color__change far fa-smile-wink fa-lg"></i>
+            <button>
+                <i class="idk-anymore__teacher-nico fas fa-arrow-up fa-lg"></i>
+            </button>
+        </div>
+    </form>
+
+    <div id="no-mobile">
+        <span>Your screen is too big</span>
+    </div>
+    
+    <script src="https://kit.fontawesome.com/fc948c7efe.js" crossorigin="anonymous"></script>
+</body>
+</html>

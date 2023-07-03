@@ -1,0 +1,72 @@
+.welcome-header {
+    margin: 90px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome-header__title {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.welcome-header__text {
+    width: 60%;
+    opacity: 0.7;
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 70px;
+}
+
+#login-form input {
+    border: none;
+    padding: 17px 0px;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+#login-form input:not([type=submit]) {
+    background-color: white;
+    border-radius: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding-left: 20px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+#login-form input::placeholder {
+    color: gray;
+}
+
+#login-form input:focus {
+    border-color: #3e9c35;
+}
+
+#login-form input[type="submit"] {
+    background-color: var(--black);
+    color: white;
+    cursor: pointer;
+    padding: 25px 0px;
+    border-radius: 10px;
+}
+
+#login-form a {
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    font-size: 13px;
+}
+
+#login-form:last-child {
+    color: white;
+}
+
+.starchat-logo {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
