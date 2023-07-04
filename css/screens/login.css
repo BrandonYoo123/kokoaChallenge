@@ -65,8 +65,31 @@
 }
 
 .starchat-logo {
-    margin-top: 150px;
+    margin-top: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.starchat-logo i {
+    color: white;
+    font-size: 250px;
+}
+
+.starchat-logo span {
+    display: flex;
+    font-size: 50px;
+    font-weight: bolder;
+    color: var(--green);
+    position: absolute;
+}
+
+#logo-span1{
+    top: 65px;
+}
+
+#logo-span2 {
+    bottom: 85px;
 }
